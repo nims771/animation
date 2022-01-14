@@ -1,0 +1,1393 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Acrom, serif;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.row,
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contents {
+  display: contents;
+}
+
+.cm1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0;
+  position: static;
+  width: 20px;
+  height: 5px;
+  left: 20px;
+  top: 20px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 20px 0px;
+}
+
+.cm1 .frame_4592 {
+  position: static;
+  width: 2px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm1 .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 16px;
+  height: 20px;
+  left: 2px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm1 .data .frame_4611 {
+  position: static;
+  width: 16px;
+  height: 3.42px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm1 .data .bbloxx-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 16px;
+  height: 6.75px;
+  left: 0px;
+  top: 3.42px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm1 .data .bbloxx-1 .frame_4591 {
+  position: static;
+  width: 1px;
+  height: 6.75px;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm1 .data .bbloxx-1 .grax-1 {
+  position: relative;
+  width: 15px;
+  height: 6.75px;
+  left: 0px;
+  top: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 47, 61, 0.2)), to(rgba(37, 47, 61, 0.2))), #FFFFFF;
+  background: linear-gradient(0deg, rgba(37, 47, 61, 0.2), rgba(37, 47, 61, 0.2)), #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm1 .data .bbloxx-1 .grax-1::before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FF5F49), to(#FF5F49)), #FFFFFF;
+  background: linear-gradient(0deg, #FF5F49, #FF5F49), #FFFFFF;
+  z-index: 1;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+.cm1 .data .frame_4609 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 16px;
+  height: 3px;
+  left: 0px;
+  top: 10.17px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm1 .data .frame_4609 .frame_4592 {
+  position: static;
+  width: 8px;
+  height: 3px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm1 .data .frame_4609 .frame_4593 {
+  position: static;
+  width: 8px;
+  height: 2px;
+  left: 8px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm1 .data .bbloxx-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 16px;
+  height: 3.42px;
+  left: 0px;
+  top: 13.17px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm1 .data .bbloxx-2 .frame_4592 {
+  position: static;
+  width: 6px;
+  height: 3.42px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm1 .data .bbloxx-2 .grax-2 {
+  position: relative;
+  width: 10px;
+  height: 3.42px;
+  left: 0px;
+  top: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 47, 61, 0.2)), to(rgba(37, 47, 61, 0.2))), #FFFFFF;
+  background: linear-gradient(0deg, rgba(37, 47, 61, 0.2), rgba(37, 47, 61, 0.2)), #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+.cm1 .data .bbloxx-2 .grax-2::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 95, 73, 0.5)), to(rgba(255, 95, 73, 0.5))), #FFFFFF;
+  background: linear-gradient(0deg, rgba(255, 95, 73, 0.5), rgba(255, 95, 73, 0.5)), #FFFFFF;
+  z-index: 1;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+.cm1 .data .frame_4592 {
+  position: static;
+  width: 16px;
+  height: 3.42px;
+  left: 0px;
+  top: 16.58px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm1 .frame_4591 {
+  position: static;
+  width: 2px;
+  height: 20px;
+  left: 18px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm1.focus .bbloxx-1 {
+  -webkit-transform: translateY(6.41px);
+          transform: translateY(6.41px);
+}
+
+.cm1.focus .bbloxx-1 .grax-1::before {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  opacity: 10;
+}
+
+.cm1.focus .bbloxx-2 {
+  -webkit-transform: translateY(-9.75px);
+          transform: translateY(-9.75px);
+}
+
+.cm1.focus .bbloxx-2 .grax-2::before {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  opacity: 10;
+}
+
+.cm2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 20px;
+  height: 20px;
+  left: 20px;
+  top: 20px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 20px 0px;
+}
+
+.cm2 .frame_4592 {
+  position: static;
+  width: 2.17px;
+  height: 20px;
+  left: 17.83px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm2 .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 15.67px;
+  height: 20px;
+  left: 2.17px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm2 .data .bbloxx-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 6.75px;
+  height: 20px;
+  left: 8.92px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm2 .data .bbloxx-1 .frame_4593 {
+  position: static;
+  width: 6.75px;
+  height: 6px;
+  left: 0px;
+  top: 14px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm2 .data .bbloxx-1 .grax-1 {
+  position: relative;
+  width: 6.75px;
+  height: 10px;
+  left: 0px;
+  top: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 47, 61, 0.2)), to(rgba(37, 47, 61, 0.2))), #FFFFFF;
+  background: linear-gradient(0deg, rgba(37, 47, 61, 0.2), rgba(37, 47, 61, 0.2)), #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm2 .data .bbloxx-1 .grax-1::before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 95, 73, 0.5)), to(rgba(255, 95, 73, 0.5))), #FFFFFF;
+  background: linear-gradient(0deg, rgba(255, 95, 73, 0.5), rgba(255, 95, 73, 0.5)), #FFFFFF;
+  z-index: 1;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+.cm2 .data .bbloxx-1 .frame_4594 {
+  position: static;
+  width: 6.75px;
+  height: 4px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm2 .data .frame_4606 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 2.17px;
+  height: 20px;
+  left: 6.75px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm2 .data .frame_4606 .frame_4593 {
+  position: static;
+  width: 2.17px;
+  height: 8px;
+  left: 0px;
+  top: 12px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm2 .data .frame_4606 .frame_4591 {
+  position: static;
+  width: 2.17px;
+  height: 8px;
+  left: 0px;
+  top: 4px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm2 .data .frame_4606 .frame_4594 {
+  position: static;
+  width: 2.17px;
+  height: 4px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm2 .data .bbloxx-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 6.75px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm2 .data .bbloxx-2 .frame_4593 {
+  position: static;
+  width: 6.75px;
+  height: 1px;
+  left: 0px;
+  top: 19px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm2 .data .bbloxx-2 .grax-2 {
+  position: relative;
+  width: 6.75px;
+  height: 15px;
+  left: 0px;
+  top: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 47, 61, 0.2)), to(rgba(37, 47, 61, 0.2))), #FFFFFF;
+  background: linear-gradient(0deg, rgba(37, 47, 61, 0.2), rgba(37, 47, 61, 0.2)), #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm2 .data .bbloxx-2 .grax-2::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FF5F49), to(#FF5F49)), #FFFFFF;
+  background: linear-gradient(0deg, #FF5F49, #FF5F49), #FFFFFF;
+  z-index: 1;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+.cm2 .data .bbloxx-2 .frame_4594 {
+  position: static;
+  width: 6.75px;
+  height: 4px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm2 .frame_4611 {
+  position: static;
+  width: 2.17px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm2.focus .bbloxx-1 {
+  -webkit-transform: translateX(-8.92px);
+          transform: translateX(-8.92px);
+}
+
+.cm2.focus .bbloxx-1 .grax-1::before {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  opacity: 1;
+}
+
+.cm2.focus .bbloxx-2 {
+  -webkit-transform: translateX(8.92px);
+          transform: translateX(8.92px);
+}
+
+.cm2.focus .bbloxx-2 .grax-2::before {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  opacity: 1;
+}
+
+.cm3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 20px;
+  height: 20px;
+  left: 20px;
+  top: 20px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 20px 0px;
+}
+
+.cm3 .frame_4591 {
+  position: static;
+  width: 1px;
+  height: 20px;
+  left: 19px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm3 .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 18px;
+  height: 20px;
+  left: 1px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm3 .data .frame_4592 {
+  position: static;
+  width: 18px;
+  height: 3.28px;
+  left: 0px;
+  top: 16.72px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm3 .data .bbloxx-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 18px;
+  height: 6.75px;
+  left: 0px;
+  top: 9.97px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm3 .data .bbloxx-1 .frame_4594 {
+  position: static;
+  width: 1.5px;
+  height: 6.75px;
+  left: 16.5px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm3 .data .bbloxx-1 .grax-1 {
+  position: relative;
+  width: 15px;
+  height: 6.75px;
+  left: 0px;
+  top: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 47, 61, 0.2)), to(rgba(37, 47, 61, 0.2))), #FFFFFF;
+  background: linear-gradient(0deg, rgba(37, 47, 61, 0.2), rgba(37, 47, 61, 0.2)), #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm3 .data .bbloxx-1 .grax-1::before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FF5F49), to(#FF5F49)), #FFFFFF;
+  background: linear-gradient(0deg, #FF5F49, #FF5F49), #FFFFFF;
+  z-index: 1;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+.cm3 .data .bbloxx-1 .frame_4591 {
+  position: static;
+  width: 1.5px;
+  height: 6.75px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm3 .data .frame_4611 {
+  position: static;
+  width: 18px;
+  height: 3.28px;
+  left: 0px;
+  top: 6.7px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm3 .data .bbloxx-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 18px;
+  height: 3.42px;
+  left: 0px;
+  top: 3.28px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm3 .data .bbloxx-2 .frame_4594 {
+  position: static;
+  width: 1.5px;
+  height: 3.42px;
+  left: 16.5px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm3 .data .bbloxx-2 .grax-2 {
+  position: relative;
+  width: 15px;
+  height: 3.42px;
+  left: 0px;
+  top: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 47, 61, 0.2)), to(rgba(37, 47, 61, 0.2))), #FFFFFF;
+  background: linear-gradient(0deg, rgba(37, 47, 61, 0.2), rgba(37, 47, 61, 0.2)), #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.cm3 .data .bbloxx-2 .grax-2::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 95, 73, 0.5)), to(rgba(255, 95, 73, 0.5))), #FFFFFF;
+  background: linear-gradient(0deg, rgba(255, 95, 73, 0.5), rgba(255, 95, 73, 0.5)), #FFFFFF;
+  z-index: 1;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+.cm3 .data .bbloxx-2 .frame_4592 {
+  position: static;
+  width: 1.5px;
+  height: 3.42px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm3 .data .frame_4612 {
+  position: static;
+  width: 18px;
+  height: 3.28px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm3 .frame_4592 {
+  position: static;
+  width: 1px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.cm3.focus .bbloxx-1 {
+  -webkit-transform: translateY(-6.69px);
+          transform: translateY(-6.69px);
+}
+
+.cm3.focus .bbloxx-1 .grax-1::before {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  opacity: 1;
+}
+
+.cm3.focus .bbloxx-2 {
+  -webkit-transform: translateY(10.02px);
+          transform: translateY(10.02px);
+}
+
+.cm3.focus .bbloxx-2 .grax-2::before {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  opacity: 1;
+}
+
+.sliderContainer {
+  position: relative;
+  top: 5px;
+  height: 18px;
+  width: 55px;
+  margin: 38px 10px 10px -55px;
+}
+
+.sliderContainer output {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 5px;
+  color: black;
+  border-radius: 10px 10px 0 10px;
+  font-size: 3.5px;
+}
+
+.slider {
+  position: absolute;
+  -webkit-appearance: none;
+  background: grey;
+  width: 55%;
+  height: 1px;
+  outline: none;
+  top: 2px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 3px;
+  height: 3px;
+  background: blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.switchContainer {
+  position: absolute;
+  top: 59px;
+  width: 125px;
+  height: 0px;
+  left: 5px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.customBezier {
+  position: absolute;
+  top: 16px;
+  left: 0px;
+  margin: 0 auto;
+  font-size: 3.5px;
+}
+
+.switch-for {
+  position: relative;
+  width: 15px;
+  height: 5px;
+  top: 16px;
+  left: -5px;
+  font-size: 3.5px;
+}
+
+.switch {
+  position: relative;
+  top: 17px;
+  left: -5px;
+  right: -10px;
+  height: 5px;
+  width: 4px;
+  cursor: pointer;
+}
+
+.grafik {
+  position: absolute;
+  left: 120px;
+  top: 10px;
+  height: 170px;
+  width: 170px;
+  border: .5px solid black;
+  border-radius: 1px;
+}
+
+.path {
+  font-size: 5px;
+}
+
+.edit{
+    position: absolute;
+    width: 100%;
+    top: 55px;
+}
+
+.editable{
+    position: relative;
+    margin-left:5px;
+    font-size:5px;
+}
+
+#bezier {
+    position: absolute;
+    left: 125px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */
